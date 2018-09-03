@@ -1,2 +1,2 @@
-# C-Assignments
+# C++ -Assignments
 Simple programs in C++
