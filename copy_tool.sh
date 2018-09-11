@@ -1,9 +1,14 @@
 #script can be used to copy multiple files to single file
 #@author rofi
 
-if [! $2]
-   exit(0) 
-fi
+echo $2
 
 
-ls 
+
+touch assignments_report.odt
+for file in *.c++  
+   do
+   	cat $file >> assignments_report.odt
+   	echo  "$file is copied..."
+   done
+echo "All Assignments have been added to an .odt file !!"

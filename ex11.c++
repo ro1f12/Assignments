@@ -3,7 +3,8 @@
 */
 
 /*11. Write a program to print the digits of a number in words.
- ( eg. if a number 841 is entered through the keyboard your program should print “Eight Four One”.)  
+ ( eg. if a number 841 is entered through the keyboard your program
+  should print “Eight Four One”.)  
  */
 #include<iostream>
 using namespace std;

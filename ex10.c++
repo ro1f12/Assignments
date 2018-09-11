@@ -28,10 +28,10 @@ int main(int argc, char const *argv[])
 		//Display the roots
 
 		//first root
-		int x = (-b + sqrt(D)) / 2*a;
+		float x = (-b + sqrt(D)) / 2*a;
 
 		//second root
-		int y = (-b - sqrt(D)) / 2*a;
+		float y = (-b - sqrt(D)) / 2*a;
 
 		cout<<"\nRoots are: "<<x<<" and "<<y<<".\n";
 
