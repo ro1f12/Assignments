@@ -1,10 +1,6 @@
 #script can be used to copy multiple files to single file
 #@author rofi
 
-echo $2
-
-
-
 touch assignments_report.odt
 for file in *.c++  
    do
