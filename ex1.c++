@@ -2,14 +2,14 @@
 @rofi
 */
 
-/*convert temperature from celcius scale to fehrenheit scale & vise versa*/
+/*1. convert temperature from celcius scale to fehrenheit scale & vise versa*/
 #include<iostream>
 #include<cmath>
 #include<cctype>
 using namespace std;
 
 /**
-*converts temp
+*converts temperature
 by default choice 
 is to convert 
 to fehrenheiht

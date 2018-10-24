@@ -66,3 +66,4 @@ int main(int argc, char const *argv[])
 	cout<<"\nThe total commission is: Rs."<<float(commission)<<"/- only.\n";
 	return 0;
 }
+

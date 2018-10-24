@@ -10,7 +10,7 @@ using namespace std;
 
 
 /**
-@perams: arr[] a sorted arry
+@params: arr[] a sorted arry
          n number to be inserted
          pos position for insertion
 */

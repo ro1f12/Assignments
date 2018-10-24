@@ -18,6 +18,11 @@ int main(int argc, char const *argv[])
 	for(int i=0; i<count; i++){
 		cout<<"\n Input "<<i+1<<"th Number: ";
 		cin>>input;
+                //initialize max and min for first input
+                if(i == 0){
+                   min = input;
+                   max = input;
+                }
   
    		//add to sum
    		sum +=input;
