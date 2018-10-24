@@ -7,25 +7,26 @@ using namespace std;
 
 void swap(int *a, int *b)
 {
-	int *temp;
+	int temp;
 
-	temp = a;
-	a = b;
-	b = temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
 
 }
 
 int main(int argc, char const *argv[])
 {
-	int *a, *b;
+	int a, b;
 
-	cin>>*a>>*b;
-	cout<<a<<" "<<b;
+    cout<<"Input two numbers";
+	cin>>a>>b;
+	cout<<"before swaping: "<<a<<" "<<b;
 
 
-	swap(a, b);
+	swap(&a, &b);
 
-	cout<<*a<<" "<<*b;
+	cout<<"\n after awaping : "<<a<<" "<<b<<"\n";
 
 	return 0;
 }
