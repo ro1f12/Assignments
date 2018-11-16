@@ -1,4 +1,19 @@
 //@rofi
+/**
+       shape
+____________________
+         |
+         |
+      polygon
+___________________
+|		   |
+|		   |
+rectangle	triangle
+   |
+   |
+ square
+ 
+**/
 #include<iostream>
 using namespace std;
 
